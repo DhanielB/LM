@@ -24,19 +24,19 @@
 
 @keyframes move {
   100% {
-    transform: translateY(0vmin);
+    transform: translateY(0%);
     opacity: 1;
   }
   75% {
-    transform: translateY(4vmin);
+    transform: translateY(30%);
     opacity: 1;
   }
   50% {
-    transform: translateY(8vmin);
+    transform: translateY(60%);
     opacity: 1;
   }
   25% {
-    transform: translateY(12vmin);
+    transform: translateY(90%);
     opacity: 1;
   }
 }
