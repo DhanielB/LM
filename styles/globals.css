@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/QuickSand/main.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/main.ttf') format('woff');
+}
+
+.header-promotion {
+  font-family: 'Quicksand', sans-serif;
+  font-display: swap;
+}
+
+.main-title {
+  font-family: 'Rubik', sans-serif;
+  font-display: swap;
+}
+
+@keyframes move {
+  100% {
+    transform: translateY(0vmin);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(4vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(8vmin);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(12vmin);
+    opacity: 1;
+  }
+}
+
+.animate-move {
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
