@@ -1,6 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  env: {
+    NODE_ENV: 'production'
+  }
 }
 
 module.exports = nextConfig
