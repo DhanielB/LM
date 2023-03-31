@@ -3,5 +3,3 @@ module.exports = {
     NODE_ENV: 'production'
   }
 }
-
-module.exports = nextConfig
